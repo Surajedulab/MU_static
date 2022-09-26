@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Dynamic Blog</title>
+
+    <!-- MODERNIZR -->
+    <script type="text/javascript" src="/assets/js/vendor/modernizr.custom.js"></script>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skins/blue.css" data-name="skins">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/vendor/github.css">
+
+    <meta prefix="og: https://ogp.me/ns#" property="og:title" content="HideSeek jQuery plugin" />
+    <meta prefix="og: https://ogp.me/ns#" property="og:type" content="website" />
+    <meta prefix="og: https://ogp.me/ns#" property="og:image" content="https://vdw.github.io/HideSeek/images/hideseek_logo.png" />
+    <meta prefix="og: https://ogp.me/ns#" property="og:url" content="https://vdw.github.io/HideSeek/" />
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/inner-js/css/settings.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/faq-accordion.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner-1.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner1-1.css">
+    <link rel="stylesheet" href="assets/css/Paralax-Hero-Banner1.css">
+    <link rel="stylesheet" href="assets/css/Tabbed-Panel.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <style>
+        .navbar-wrapper {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #6fd1ff;
+            cursor: pointer;
+        }
+        
+        /*.img_cover{
+
+            background-image: url(https://static.pexels.com/photos/512694/pexels-photo-512694.jpeg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-color: #464646;
+        }*/
+
+        .img_cover {
+            /*background: url('https://static.pexels.com/photos/512694/pexels-photo-512694.jpeg') no-repeat center;*/
+            -webkit-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body class="inner-page">
+    <div class="wrapper" id="wrapper">
+
+        <div class="menu">
+            <div class="navbar-wrapper">
+                <div class="container">
+
+                    <div class="logo"><a href="https://admissiondesk.org:80"><img src="./images/admissionDeskLogo.png" height="100" width="100"
+                                alt=""></a></div>
+                    <div class="navbar navbar-inverse navbar-static-top">
+                        <div class="container">
+                            <nav class="navArea">
+                                <div class="navbar-header">
+                                    <button data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle collapsed"><span
+                                            class="sr-only">Toggle
+                                            navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+                                            class="icon-bar"></span></button>
+                                </div>
+                                <div class="collapse navbar-collapse">
+                                    <ul class="nav navbar-nav" id="navigation">
+                                        <li class="menuItem" id="home"><a href="index.html">Home</a></li>
+                                        <li class="menuItem"><a href='https://mu.admissiondesk.org/blog-medium-image.html'>Blog</a></li>
+                                        <li class="menuItem"><a onclick="window.location.href='https://mu.admissiondesk.org/app/#/auth/register'">Register</a></li>
+                                        <li class="menuItem"><a onclick="window.location.href='https://mu.admissiondesk.org/app/#/auth/login'">Login</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <!-- Page Header -->
+            <div id="post-header" class="page-header">
+                <br>
+                <br>
+                <div class="row">
+                    <div id="headerCover"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-10">
+                        <div class="post-meta">
+                        </div>
+                        <h2><span id="myText"></span></h2> <!--style="color: #000;"-->
+                    </div>
+                </div>
+            </div>
+            <!-- /Page Header -->
+        </header>
+        <!-- /Header -->
+
+        <!-- section -->
+        <div class="section">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <span id="onedatablog"></span>
+                </div>
+            </div>
+        </div>
+        <!-- /section -->
+
+
+
+        <div class="footer-basic" style="background-color:rgb(47,78,113);">
+            <footer>
+                <div class="social" style="color:rgb(255,255,255);"><a href="https://www.facebook.com/Official-University-of-Mumbai-1592096307699282/">
+                        <i class="icon ion-social-facebook" style="color:rgb(255,255,255);"></i></a>
+                    <a href="https://twitter.com/uni_mumbai?lang=en"><i class="icon ion-social-twitter" style="color:rgb(255,255,255);"></i></a>
+                    <a href="https://www.linkedin.com/school/university-of-mumbai?trk=top_nav_home"><i class="icon ion-social-linkedin"
+                            style="color:rgb(255,255,255);"></i></a></div>
+                <ul class="list-inline" style="color:rgb(255,255,255);">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="process.html">Process</a></li>
+                    <!-- <li><a href="#">Essential Info</a></li> -->
+                    <li><a href="terms.html">Terms</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    
+                    <li></li>
+                </ul>
+                <p class="copyright">Admissiondesk © 2021</p>
+            </footer>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/App-Features-Carousel.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="assets/js/Paralax-Hero-Banner.js"></script>
+        <script type="text/javascript" src="js/swipe.js"></script>
+        <script> 
+            $(document).ready(function(){
+                var data = localStorage.getItem("object_name");
+                var value1 = JSON.parse(data).Id;
+                localStorage.clear(); //clean the localstorage
+
+                var baseUrl = "https://mu.admissiondesk.org/uiserver";
+                $.ajax({
+                    type: 'GET',
+                    url: baseUrl + "/getBlogsData",
+                    data: {
+                        id: value1,
+                    },
+                    global: false,
+                    success: function (result) {
+                        var blogHtml = '';
+                        var blogs = result.data;
+                        document.getElementById("myText").innerHTML = blogs.title;
+                        document.getElementById("onedatablog").innerHTML = blogs.description;
+                        if(blogs.cover_image){
+                            blogHtml += '<div class="header_v1"><div class="banner row" id="banner"><div class="img_cover"><img class="Lazy" src="'+baseUrl+'/'+blogs.cover_image+'" alt="image01"></div></div></div>';
+                            var div = document.getElementById('headerCover');
+                            div.innerHTML += blogHtml;
+                        }
+                    },
+                    error: function (error) {
+                        if (error.status == 0 && error.statusText == "timeout") {
+                            var div = document.getElementById('onedatablog');
+                            div.innerHTML += "No Blogs Found";
+                        } else {
+                            var div = document.getElementById('onedatablog');
+                            div.innerHTML += "No Blogs Found";
+                        }
+                    },
+                });
+            })
+        </script>
+</body>
+
+</html> 

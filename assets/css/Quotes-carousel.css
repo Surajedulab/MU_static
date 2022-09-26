@@ -1,0 +1,68 @@
+.bgimg {
+  width:100%;
+  color:#fff;
+  background: linear-gradient(to top, #00cc66 0%, #99ff99 120%);
+  background-color:#00cc66;
+}
+
+.features-blue .intro { 
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 60px;
+}
+
+section {
+  padding-top:0px;
+  padding-bottom:10px;
+}
+
+.quote {
+  color:white;
+  text-align:center;
+  margin-bottom:55px;
+  margin-top:35px;
+}
+
+#fade-quote-carousel.carousel {
+  padding-bottom:60px;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity:0;
+  -webkit-transition-property:opacity;
+  -ms-transition-property:opacity;
+  transition-property:opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity:1;
+  -webkit-transition-property:opacity;
+  -ms-transition-property:opacity;
+  transition-property:opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom:10px;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color:white;
+  border:none;
+}
+
+#fade-quote-carousel blockquote {
+  text-align:center;
+  border:none;
+}
+
+#fade-quote-carousel .profile-circle {
+  width:100px;
+  height:100px;
+  margin:0 auto;
+  border-radius:100px;
+}
+
+top-margin {
+  margin-top:25px;
+}
+

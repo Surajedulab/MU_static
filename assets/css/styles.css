@@ -1,0 +1,12 @@
+.navbar-default.navbar-link {
+  color:#fff;
+}
+
+.navbar-nav > li > a {
+  margin:25.5px 6px;
+}
+
+img-class {
+  background-image:url(../../assets/img/higher-education.jpg);
+}
+
