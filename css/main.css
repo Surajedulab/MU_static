@@ -205,6 +205,19 @@ h4.subHeading{
 	margin-top:20px;
 }
 
+.contact{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 /*----------------------------------------------------
 	3. Header Part
 ------------------------------------------------------*/
